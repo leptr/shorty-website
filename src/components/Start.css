@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+
+.Start {
+  position: relative;
+  top: 0;
+  left: 10vw;
+  width: 80vw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  user-select: none;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 100px;
+  height: auto;
+}
+
+.Start .main-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: first;
+  justify-content: center;
+}
+
+.Start .title-big {
+  margin-bottom: 50px;
+  font-size: 256px;
+}
+
+.Start .subtitle-big {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Merriweather', serif;
+}
+
+.Start .buttons {
+  margin-top: 50px;
+  display: flex;
+}
+
+.Start .buttons .btn {
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .Start {
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+
+  .Start .title-big {
+    font-size: 120px;
+    text-align: center;
+  }
+
+  .Start .subtitle-big {
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+  .Start .buttons {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .Start .buttons .btn {
+    margin: 15px 0;
+    width: 220px;
+  }
+}
